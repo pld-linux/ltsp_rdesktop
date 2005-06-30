@@ -1,8 +1,8 @@
 %define		_arch	i386
 %define		_pver	4.1
 
-Summary:	Linux Terminal Server Project - Core system for terminals
-Summary(pl):	Podstawowy system dla terminali z Linux Terminal Server Project
+Summary:	Linux Terminal Server Project - rdesktop program
+Summary(pl):	Program rdesktop dla terminali z Linux Terminal Server Project
 Name:		ltsp_rdesktop
 Version:	4.0.1
 Release:	0.1
@@ -30,10 +30,14 @@ can be installed on any Linux system.
 This package contains rdesktop for LTSP terminals.
 
 %description -l pl
-- Jak obni¿yæ koszty I ocaliæ planetê?
-- Przekszta³ciæ te stare pecety na X-terminale z u¿yciem LTSP.
+LTSP to dodatkowy pakiet dla Linuksa pozwalaj±cy na pod³±czenie wielu
+cienkich klientów jako terminali do serwera linuksowego. Aplikacje
+zwykle dzia³aj± na serwerze i przyjmuj± wej¶cie oraz wy¶wietlaj±
+wyj¶cie na wy¶wietlaczach cienkich klientów. LTSP jest dostêpny jako
+zestaw pakietów, które mo¿na zainstalowaæ na dowolnym systemie
+linuksowym.
 
-Ten pakiet zawiera zdalny desktop dla terminali LTSP.
+Ten pakiet zawiera program rdesktop dla terminali LTSP.
 
 %prep
 %setup -q -n ltsp-utils
