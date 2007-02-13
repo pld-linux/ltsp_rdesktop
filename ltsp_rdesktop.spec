@@ -2,7 +2,7 @@
 %define		_pver	4.1
 
 Summary:	Linux Terminal Server Project - rdesktop program
-Summary(pl.UTF-8):   Program rdesktop dla terminali z Linux Terminal Server Project
+Summary(pl.UTF-8):	Program rdesktop dla terminali z Linux Terminal Server Project
 Name:		ltsp_rdesktop
 Version:	4.0.1
 Release:	0.1
